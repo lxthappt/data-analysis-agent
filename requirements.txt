@@ -1,0 +1,22 @@
+# 数据分析 Agent —— 依赖清单
+# 版本为实际验证可用的版本，锁定以保证他人复现时行为一致。
+# 安装：pip install -r requirements.txt
+
+# ===== Agent 编排 =====
+langgraph==1.2.11
+langchain==1.4.2
+langchain-openai==1.6.2
+
+# ===== 后端接口 =====
+fastapi==0.141.1
+uvicorn==0.53.0
+pydantic==2.13.5
+python-dotenv==1.2.3
+
+# ===== 数据分析 =====
+pandas==3.0.6
+numpy==2.4.6
+plotly==7.1.0
+
+# ===== 测试 =====
+pytest
