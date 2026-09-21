@@ -61,7 +61,7 @@
 
 ```bash
 # 1. 克隆
-git clone https://github.com/<你的用户名>/data-analysis-agent.git
+git clone https://github.com/lxthappt/data-analysis-agent.git
 cd data-analysis-agent
 
 # 2. 建虚拟环境并装依赖
@@ -85,7 +85,7 @@ cd frontend && npm install && npm run dev
 ## 开发进度
 
 - [x] 项目初始化（目录结构、.gitignore、LICENSE、README）
-- [ ] 环境依赖（requirements.txt）
+- [x] 环境依赖（requirements.txt）
 - [ ] 示例数据（SQLite 电商订单表）
 - [ ] 三个工具（SQL 查询 / Pandas 分析 / 图表生成）
 - [ ] Agent 核心（LangGraph 状态图）
