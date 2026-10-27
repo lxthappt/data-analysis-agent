@@ -8,8 +8,8 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import END, START, MessagesState, StateGraph
 from langgraph.prebuilt import ToolNode
 
-from prompts import SYSTEM_PROMPT
-from tools import create_chart, query_sql, run_pandas_code
+from .prompts import SYSTEM_PROMPT
+from .tools import create_chart, query_sql, run_pandas_code
 
 load_dotenv()  # 读取 .env 里的 DEEPSEEK_API_KEY
 
